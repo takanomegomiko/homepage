@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	display: :flex;
+	flex-wrap: wrap;
+	height: 200px;
+	width: 100%;
+}
+
+.title img{
+	position: absolute;
+	top:0;
+	left:1.5;
+	opacity: 85%;
+}
+
+.title h1{
+	display:block;
+	position: absolute;
+	width: 100%;
+	top:0;
+	left:1.5;
+	margin-left: 20px;
+	color:skyblue;
+	font-size: 80px;
+	font-family:Impact,Charcoal;
+
+}
+
+.spanh1{
+	display:inline-block;
+	color:skyblue;
+	font-size: 30px;
+	font-family:Impact,Charcoal;
+	
+}
+
+.title img{
+	height: 200px;
+	width:100%;
+	
+}
+
+
+body{
+	background-image: url("top-background.png");
+	
+	height: 100%;
+	width:100%;
+}
+
+.list-wrap{
+	list-style: none;
+	color: saddlebrown;
+	font-size:  70px;
+	font-family:Impact,Charcoal;
+	border-style:dashed;
+	height: 600px;
+	width: 430px;
+	margin: 20px 50px 20px 50px; 
+}
+
+
+.li-gohan{
+	background-image: url("fusen2.png");
+	width:320px;
+	height: 60px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin: 10px 10px 10px 10px;
+	padding-left: 30px;
+	
+	color: skyblue;
+	font-size:  50px;
+	font-family:Impact,Charcoal;
+	opacity: 90%;
+}
+
+.li-gohan:hover{
+	cursor:pointer;
+	transform:scale(1.1,1.1);
+	opacity: 90%;
+}
+
+footer{
+	text-align:center;
+}
+
+@media(max-width: 670px){
+	.container{
+		width:100%;
+	}
+}
+
+@media(max-width: 670px){
+
+*{
+	box-sizing: border-box;
+}
+
+	.title h1{
+		font-size:  55px;
+		text-align: center;
+	}
+	.spanh1{
+		display: inline-block;
+		
+	}
+}
